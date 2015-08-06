@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  Xmpp demo
+//
+//  Created by maomao on 15/7/17.
+//  Copyright (c) 2015年 maomao. All rights reserved.
+//
+
+#ifndef Xmpp_demo_PrefixHeader_pch
+#define Xmpp_demo_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "XMPPFramework.h"
+#import "UIImage+StrethImage.h"
+#import "NSString+DocumentPath.h"
+#define kRoomJID @"myroom"
+
+#define kHost @"host"
+#define kMyJID @"myjid"
+#define kPS @"password"
+
+
+#define HOSTNAME @"183.129.167.165"
+#define HOSTPORT 5322
+#define PATH @"ld-host08"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

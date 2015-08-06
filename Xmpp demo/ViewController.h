@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *NameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *PasswordField;
+- (IBAction)resignBtn:(id)sender;
+
+- (IBAction)loginBtn:(id)sender;
+- (IBAction)ConnectBtn:(id)sender;
+- (IBAction)FriendListBtn:(id)sender;
+- (IBAction)LoginOutBtn:(id)sender;
 
 @end
 
